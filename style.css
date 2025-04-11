@@ -5,15 +5,7 @@
     box-sizing: border-box;
 }
 
-/* Body style */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #fdf6e3; /* Cream/off-white background */
-    color: #000; /* Black text */
-    margin: 0;
-    padding: 0;
-    padding-top: 100px; /* Adjusted for spacing below fixed navbar and subhead */
-}
+/* === Header Styles === */
 
 /* Top bar container */
 .top-bar {
@@ -39,6 +31,7 @@ body {
     font-size: 16px;
     margin-top: 5px;
     color: #ddd; /* Slightly lighter than white for contrast */
+    text-align: center; /* Center it */
 }
 
 /* Navigation links inside the top bar */
@@ -59,6 +52,52 @@ body {
 .top-nav a:hover {
     color: #4f9ed6;
 }
+
+/* === Layout === */
+
+/* Layout the main content into two halves */
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 10%;
+}
+
+/* Left side for text */
+.text-section {
+    flex: 1;
+    padding-right: 20px;
+}
+
+/* Right side for image */
+.image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Placeholder for now */
+    background-color: #eee;
+    height: 300px; /* Optional for layout */
+}
+
+
+/* === Typography === */
+
+/* Body style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdf6e3; /* Cream/off-white background */
+    color: #000; /* Black text */
+    margin: 0;
+    padding: 0;
+    padding-top: 140px; /* Adjusted for spacing below fixed navbar and subhead */
+}
+
+/* Paragraph styling */
+.text-section p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
 
 /* Heading styles */
 h1 {
