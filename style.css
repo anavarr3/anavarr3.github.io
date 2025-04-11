@@ -74,16 +74,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* Placeholder for now */
-    background-color: #eee;
-    height: auto;
+    /* Remove the background color */
+    background-color: transparent; /* or simply remove this line */
+    height: auto; /* Ensure it doesn’t stretch vertically */
 }
 
+/* Image styling */
 .image-section img {
-    max-width: 300px;
+    max-width: 100px; /* Resize the image (adjust the width as needed) */
     height: auto;
     border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* optional */
 }
 
 
