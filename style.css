@@ -8,61 +8,68 @@
 /* Body style */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #fdf6e3; /* Cream/off-white background */
+    color: #000; /* Black text */
     margin: 0;
     padding: 0;
-    padding-top: 60px; /* Push the content down to make space for the fixed navbar */
+    padding-top: 100px; /* Adjusted for spacing below fixed navbar and subhead */
 }
 
 /* Top bar container */
 .top-bar {
-    background-color: #333; /* Dark background for the top bar */
-    color: white; /* White text color */
-    padding: 10px 0; /* Padding for top and bottom of the bar */
-    width: 100%; /* Make it span the entire width */
-    position: fixed; /* Keep it at the top even when scrolling */
-    top: 0; /* Align it to the top */
-    left: 0; /* Align it to the left */
-    z-index: 1000; /* Make sure it stays on top of other elements */
-}
-
-/* Navigation links inside the top bar */
-.top-nav {
-    display: flex; /* Flexbox layout for horizontal alignment */
-    justify-content: center; /* Center the links */
-    gap: 20px; /* Space out the links */
-}
-
-.top-nav a {
-    color: white; /* Link color */
-    text-decoration: none; /* Remove underline from links */
-    font-size: 16px; /* Font size */
-    transition: color 0.3s; /* Smooth color transition for hover effect */
-}
-
-.top-nav a:hover {
-    color: #4CAF50; /* Change color on hover */
-}
-
-/* Heading styles */
-h1 {
+    background-color: #434040; /* Dark background for the top bar */
+    color: white;
+    padding: 15px 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
     text-align: center;
-    margin-top: 80px; /* Space it from the top for better visual balance */
-    color: #4CAF50; /* Green color for the main heading */
-}
-
-h2 {
-    text-align: center;
-    font-size: 20px;
-    color: #555;
-    margin-bottom: 20px;
 }
 
 /* Style for the name section */
 .name {
     font-size: 24px;
     font-weight: bold;
+}
+
+/* Style for the subhead under name */
+.subhead {
+    font-size: 16px;
+    margin-top: 5px;
+    color: #ddd; /* Slightly lighter than white for contrast */
+}
+
+/* Navigation links inside the top bar */
+.top-nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.top-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.top-nav a:hover {
+    color: #4f9ed6;
+}
+
+/* Heading styles */
+h1 {
     text-align: center;
+    margin-top: 40px;
+    color: #000; /* Changed to black for consistency */
+}
+
+h2 {
+    text-align: center;
+    font-size: 20px;
+    color: #000; /* Also changed to black */
     margin-bottom: 20px;
 }
