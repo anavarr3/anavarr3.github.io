@@ -81,7 +81,7 @@
 
 /* Image styling */
 .image-section img {
-    max-width: 100px; /* Resize the image (adjust the width as needed) */
+    max-width: 150px; /* Resize the image (adjust the width as needed) */
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* optional */
