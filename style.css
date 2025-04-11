@@ -76,7 +76,7 @@
     align-items: center;
     /* Placeholder for now */
     background-color: #eee;
-    height: 100px; /* Optional for layout */
+    height: auto;
 }
 
 
