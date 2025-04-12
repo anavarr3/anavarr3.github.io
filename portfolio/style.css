@@ -124,6 +124,7 @@ h2 {
 
 
 /* Portfolio Section */
+/* Portfolio Section */
 .portfolio {
     margin-top: 40px; /* Adjust the spacing */
     padding: 20px;
@@ -131,12 +132,14 @@ h2 {
     display: flex;
     flex-wrap: wrap; /* Allow articles to wrap to the next line */
     gap: 20px; /* Optional: adds space between articles */
+    justify-content: space-between; /* Ensure articles are spaced out evenly */
 }
 
 /* Article Container */
 .article {
     flex: 1 1 30%; /* Each article takes up 30% of the row, but can shrink if needed */
     margin-bottom: 40px; /* Space between each article vertically */
+    box-sizing: border-box; /* Ensures padding and margin don't affect width */
 }
 
 /* Article Title */
