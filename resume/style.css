@@ -173,7 +173,7 @@ h2 {
   
   /* City/State styling */
   .job-city-state {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: normal;
     color: #555;
     margin: 0;
@@ -183,6 +183,7 @@ h2 {
   .job-title {
     font-size: 14px;
     font-weight: bold;
+    color: #555;
     margin-top: 4px;
     margin-bottom: 0;
   }
