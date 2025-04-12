@@ -128,12 +128,15 @@ h2 {
     margin-top: 40px; /* Adjust the spacing */
     padding: 20px;
     background-color: #fdf6e3; /* Optional: match the body background */
+    display: flex;
+    flex-wrap: wrap; /* Allow articles to wrap to the next line */
+    gap: 20px; /* Optional: adds space between articles */
 }
 
 /* Article Container */
 .article {
-    margin-bottom: 40px; /* Space between each article */
-    display: block; /* Ensure each article is treated as a block element */
+    flex: 1 1 30%; /* Each article takes up 30% of the row, but can shrink if needed */
+    margin-bottom: 40px; /* Space between each article vertically */
 }
 
 /* Article Title */
@@ -170,11 +173,4 @@ h2 {
     font-size: 16px;
     color: black; /* Dek text should be black */
     margin-top: 5px;
-}
-
-/* Portfolio Section */
-.portfolio {
-    margin-top: 40px; /* Adjust the spacing */
-    padding: 20px;
-    background-color: #fdf6e3; /* Optional: match the body background */
 }
