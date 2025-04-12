@@ -121,3 +121,67 @@ h2 {
     color: #000; /* Also changed to black */
     margin-bottom: 20px;
 }
+
+
+/* Portfolio Section */
+.portfolio {
+    margin-top: 40px; /* Adjust the spacing */
+    padding: 20px;
+    background-color: #fdf6e3; /* Optional: match the body background */
+}
+
+/* Article Container */
+.article {
+    margin-bottom: 40px; /* Space between each article */
+}
+
+/* Article Title */
+.article-title {
+    font-size: 24px; /* Make title large */
+    font-weight: bold;
+    color: #F0CE98; /* Yellow accent color */
+    text-decoration: none; /* Remove underline */
+    display: block; /* Block to make it easier to link */
+    margin-bottom: 5px; /* Space between title and other details */
+}
+
+.article-title:hover {
+    color: #d1a84d; /* Slightly darker yellow on hover */
+}
+
+/* Article Details (Publication and Date) */
+.article-details {
+    font-size: 16px;
+    color: black;
+}
+
+.article-details .publication {
+    color: #F0CE98; /* Yellow for publication */
+    font-weight: bold; /* Make it bold */
+}
+
+.article-details .date {
+    color: black; /* Keep date text black */
+}
+
+/* Dek (Summary) */
+.dek {
+    font-size: 16px;
+    color: black; /* Dek text should be black */
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .article {
+        margin-bottom: 20px; /* Decrease space between articles on smaller screens */
+    }
+
+    .article-title {
+        font-size: 22px; /* Smaller title size on mobile */
+    }
+}
