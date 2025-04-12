@@ -191,11 +191,11 @@ h2 {
   
   /* Date styling (right side) */
   .job-title-date {
-    font-size: 14px;
+    font-size: 14x;
     font-weight: normal;
     color: #555;
     white-space: nowrap;
-    /*min-width: max-content;  /* NEW: keeps it from shrinking */
+    min-width: max-content;  /* NEW: keeps it from shrinking */
     padding-left: 10px;       /* optional for spacing */
 }
 
