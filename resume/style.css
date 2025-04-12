@@ -140,8 +140,6 @@ h2 {
     margin-bottom: 0;
 }
 
-
-  
 /* Add space below the bullet list that comes after each job-entry */
 .job-entry + ul {
     margin-top: 8px;          /* small space between job title and list */
@@ -182,7 +180,7 @@ h2 {
   /* Job title styling */
 /* Job title styling */
 .job-entry .job-title {
-    font-size: 12px; /* Make the job title smaller */
+    font-size: 16px; /* Make the job title smaller */
     font-weight: bold;
     margin-top: 4px;
     margin-bottom: 0;
@@ -197,7 +195,7 @@ h2 {
     font-weight: normal;
     color: #555;
     white-space: nowrap;
-    min-width: max-content;  /* NEW: keeps it from shrinking */
+    /*min-width: max-content;  /* NEW: keeps it from shrinking */
     padding-left: 10px;       /* optional for spacing */
 }
 
