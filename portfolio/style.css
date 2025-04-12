@@ -124,22 +124,28 @@ h2 {
 
 
 /* Portfolio Section */
+/* Portfolio Section */
 .portfolio {
-    margin-top: 40px; /* Adjust the spacing */
+    margin-top: 40px;
     padding: 20px;
-    background-color: #fdf6e3; /* Optional: match the body background */
-    display: flex;
-    flex-wrap: wrap; /* Allow articles to wrap to the next line */
-    gap: 20px; /* Optional: adds space between articles */
-    justify-content: space-between; /* Ensure articles are spaced out evenly */
+    background-color: #fdf6e3;
 }
 
-/* Article Container */
-.article {
-    flex: 1 1 48%; /* Each article takes up 48% of the row, allowing for 2 articles per line with some space */
-    margin-bottom: 40px; /* Space between each article vertically */
-    box-sizing: border-box; /* Ensures padding and margin don't affect width */
+/* Grid wrapper for articles */
+.article-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
 }
+
+/* Each individual article */
+.article {
+    flex: 1 1 calc(50% - 20px); /* Two per row with 20px gap */
+    margin-bottom: 40px;
+    box-sizing: border-box;
+}
+
 
 /* Article Title */
 .article-title {
