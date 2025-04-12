@@ -133,30 +133,34 @@ h2 {
 .job-entry {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start; /* changed from center to better align multi-line left side */
+    align-items: flex-start;
     gap: 20px;
     margin-bottom: 30px;
 }
 
-.job-location p {
+/* Location line (company name + city/state) */
+.job-location p:first-child {
     margin: 0;
     line-height: 1.4;
-    color: #555;
     font-size: 16px;
+    font-weight: normal; /* remove bold */
+    color: #555;
 }
 
+/* Job title */
 .job-title {
+    margin: 4px 0 0;
+    font-size: 18px; /* slightly larger */
     font-weight: bold;
-    font-size: 16px;
-    margin-top: 4px;
     color: #333;
 }
 
+/* Date range */
 .job-title-date {
-    font-size: 16px;
+    font-size: 16px; /* same size as location */
     font-weight: normal;
     color: #555;
-    white-space: nowrap; /* Keeps it on one line */
+    white-space: nowrap;
     text-align: right;
 }
 
