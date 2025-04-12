@@ -136,15 +136,19 @@ h2 {
     justify-content: space-between;
     align-items: flex-start;
     gap: 20px;
-    /* Remove or reduce this */
+    flex-wrap: wrap; /* NEW */
     margin-bottom: 0;
 }
+
 
   
 /* Add space below the bullet list that comes after each job-entry */
 .job-entry + ul {
-    margin-bottom: 40px; /* Adjust this value to your liking */
+    margin-top: 8px;          /* small space between job title and list */
+    margin-bottom: 2em;
+    max-width: 90%;           /* NEW: prevents list from overlapping date */
 }
+
 
   /* Left side of the job-entry */
   .job-info {
@@ -189,7 +193,10 @@ h2 {
     font-weight: normal;
     color: #555;
     white-space: nowrap;
-  }
+    min-width: max-content;  /* NEW: keeps it from shrinking */
+    padding-left: 10px;       /* optional for spacing */
+}
+
 
   /* === General Styling === */
   
