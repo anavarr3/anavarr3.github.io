@@ -130,46 +130,58 @@ h2 {
 
 /* === Job Entries (Location and Date on Same Line) === */
 
-/* For the job-entry container, use flex to align location and date */
+/* Container for the entire job listing */
 .job-entry {
-    margin-bottom: 30px; /* Add space between job entries */
-}
-
-/* Job Location container (organization and city/state on same line) */
-.job-location {
     display: flex;
-    justify-content: flex-start; /* Aligns the organization and city/state to the left */
-    align-items: center; /* Ensures the items align vertically */
-}
-
-/* Organization styling */
-.job-location .job-organization {
-    font-size: 18px; /* Larger font size for the organization */
-    font-weight: bold; /* Bold the organization name */
-    margin-right: 10px; /* Adds a small space between organization and city/state */
-}
-
-/* City and state styling */
-.job-location .job-city-state {
-    font-size: 16px; /* Smaller font size for the city and state */
-    font-weight: normal; /* Regular font weight */
-}
-
-/* Job Title styling */
-.job-title {
-    font-size: 18px; /* Slightly larger for job title */
-    font-weight: bold; /* Bold the job title */
-    margin-top: 8px; /* Adds space between the location and job title */
-}
-
-/* Job Date styling */
-.job-title-date {
-    font-size: 16px; /* Same size as city/state */
-    font-weight: normal; /* Regular font weight for the date */
-    color: #555; /* Slightly lighter color for the date */
-    margin-top: 4px; /* Adds space between job title and date */
-}
-
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    gap: 20px;
+  }
+  
+  /* Left side of the job-entry */
+  .job-info {
+    flex: 1;
+  }
+  
+  /* Organization and City/State inline */
+  .job-location {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  /* Organization styling */
+  .job-organization {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  /* City/State styling */
+  .job-city-state {
+    font-size: 16px;
+    font-weight: normal;
+    color: #555;
+    margin: 0;
+  }
+  
+  /* Job title styling */
+  .job-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 4px;
+    margin-bottom: 0;
+  }
+  
+  /* Date styling (right side) */
+  .job-title-date {
+    font-size: 16px;
+    font-weight: normal;
+    color: #555;
+    white-space: nowrap;
+  }
+  
 
 /* === General Styling === */
 ul {
