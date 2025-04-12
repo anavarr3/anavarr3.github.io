@@ -121,3 +121,36 @@ h2 {
     color: #000; /* Also changed to black */
     margin-bottom: 20px;
 }
+
+/* === Centering Section Headings === */
+.centered h3 {
+    text-align: center;
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+/* === Job Entries (Date and Location on Same Line) === */
+.job-entry {
+    display: flex;
+    justify-content: space-between; /* Ensure space between items */
+    align-items: center; /* Vertically align text */
+}
+
+.job-entry h4 {
+    margin: 0; /* Remove margin from h4 to avoid extra space */
+    font-weight: bold;
+}
+
+.job-entry .date {
+    margin-left: 10px; /* Space between job title and date */
+    font-style: italic; /* Make the date text stand out */
+}
+
+/* === General Styling === */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
