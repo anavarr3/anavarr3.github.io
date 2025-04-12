@@ -204,6 +204,10 @@ h2 {
     margin-top: 40px;
 }
 
+
+.skills {
+    margin-bottom: 40px !important; /* ← force spacing */
+  }
   /* === General Styling === */
   
   ul {
