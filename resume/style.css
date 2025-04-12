@@ -129,24 +129,37 @@ h2 {
 }
 
 /* === Job Entries (Location and Date on Same Line) === */
+
 .job-entry {
     display: flex;
-    justify-content: space-between; /* Distribute space between location and date */
-    align-items: center; /* Vertically align text */
-    margin-bottom: 20px; /* Space between job entries */
+    justify-content: space-between;
+    align-items: flex-start; /* changed from center to better align multi-line left side */
+    gap: 20px;
+    margin-bottom: 30px;
 }
 
-.job-entry .job-location {
+.job-location p {
+    margin: 0;
+    line-height: 1.4;
+    color: #555;
     font-size: 16px;
-    color: #555; /* Slightly lighter text color for the location */
-    margin-right: 20px; /* Space between the location and the title/date */
 }
 
-.job-entry .job-title-date {
+.job-title {
+    font-weight: bold;
     font-size: 16px;
-    color: #333; /* Darker color for the job title and date */
-    text-align: right; /* Align the title and date to the right */
+    margin-top: 4px;
+    color: #333;
 }
+
+.job-title-date {
+    font-size: 16px;
+    font-weight: normal;
+    color: #555;
+    white-space: nowrap; /* Keeps it on one line */
+    text-align: right;
+}
+
 
 /* === General Styling === */
 ul {
