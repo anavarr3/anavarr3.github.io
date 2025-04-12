@@ -138,6 +138,19 @@ h2 {
     margin-bottom: 30px;
 }
 
+/* For the job organization */
+.job-location .job-organization {
+    font-size: 18px; /* Larger font size for the organization */
+    font-weight: bold;
+}
+
+/* For the city and state */
+.job-location .job-city-state {
+    font-size: 16px; /* Smaller font size for the city and state */
+    font-weight: normal; /* Keep it regular */
+}
+
+
 /* Location line (company name + city/state) */
 .job-location p:first-child {
     margin: 0;
