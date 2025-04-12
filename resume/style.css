@@ -139,6 +139,11 @@ h2 {
     gap: 20px;
   }
   
+/* Add space below the bullet list that comes after each job-entry */
+.job-entry + ul {
+    margin-bottom: 40px; /* Adjust this value to your liking */
+}
+
   /* Left side of the job-entry */
   .job-info {
     flex: 1;
@@ -170,7 +175,7 @@ h2 {
   
   /* Job title styling */
   .job-title {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
     margin-top: 4px;
     margin-bottom: 0;
@@ -178,13 +183,29 @@ h2 {
   
   /* Date styling (right side) */
   .job-title-date {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: normal;
     color: #555;
     white-space: nowrap;
   }
   
-  
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+    max-width: 100%; /* Make sure it doesn't try to overflow */
+    word-wrap: break-word; /* Optional: helps with long strings */
+}
+
+li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+
+
+
 
 /* === General Styling === */
 ul {
