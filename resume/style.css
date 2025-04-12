@@ -190,6 +190,8 @@ h2 {
     color: #555;
     white-space: nowrap;
   }
+
+  /* === General Styling === */
   
   ul {
     list-style-type: disc;
@@ -203,18 +205,4 @@ h2 {
 li {
     margin-bottom: 6px;  /* slightly tighter list */
     line-height: 1.5;
-}
-
-
-
-
-
-/* === General Styling === */
-ul {
-    list-style-type: disc;
-    padding-left: 20px;
-}
-
-li {
-    margin-bottom: 10px;
 }
