@@ -180,12 +180,13 @@ h2 {
   }
   
   /* Job title styling */
-.job-title {
+/* Job title styling */
+.job-entry .job-title {
     font-size: 12px; /* Make the job title smaller */
     font-weight: bold;
     margin-top: 4px;
     margin-bottom: 0;
-    color: #555; /* Color stays the same */
+    color: #555;
 }
 
 
