@@ -133,6 +133,7 @@ h2 {
 /* Article Container */
 .article {
     margin-bottom: 40px; /* Space between each article */
+    display: block; /* Ensure each article is treated as a block element */
 }
 
 /* Article Title */
@@ -171,17 +172,9 @@ h2 {
     margin-top: 5px;
 }
 
-@media screen and (max-width: 768px) {
-    .content {
-        flex-direction: column;
-        padding: 20px;
-    }
-
-    .article {
-        margin-bottom: 20px; /* Decrease space between articles on smaller screens */
-    }
-
-    .article-title {
-        font-size: 22px; /* Smaller title size on mobile */
-    }
+/* Portfolio Section */
+.portfolio {
+    margin-top: 40px; /* Adjust the spacing */
+    padding: 20px;
+    background-color: #fdf6e3; /* Optional: match the body background */
 }
