@@ -128,21 +128,24 @@ h2 {
     margin-bottom: 20px; /* Space below the heading */
 }
 
-/* === Job Entries (Date and Location on Same Line) === */
+/* === Job Entries (Location and Date on Same Line) === */
 .job-entry {
     display: flex;
-    justify-content: space-between; /* Ensure space between items */
+    justify-content: space-between; /* Distribute space between location and date */
     align-items: center; /* Vertically align text */
+    margin-bottom: 20px; /* Space between job entries */
 }
 
-.job-entry h4 {
-    margin: 0; /* Remove margin from h4 to avoid extra space */
-    font-weight: bold;
+.job-entry .job-location {
+    font-size: 16px;
+    color: #555; /* Slightly lighter text color for the location */
+    margin-right: 20px; /* Space between the location and the title/date */
 }
 
-.job-entry .date {
-    margin-left: 10px; /* Space between job title and date */
-    font-style: italic; /* Make the date text stand out */
+.job-entry .job-title-date {
+    font-size: 16px;
+    color: #333; /* Darker color for the job title and date */
+    text-align: right; /* Align the title and date to the right */
 }
 
 /* === General Styling === */
