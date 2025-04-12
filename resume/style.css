@@ -189,24 +189,12 @@ h2 {
 
 
 .job-entry .job-title-date {
-    font-size: 14px; /* or whatever you want */
+    font-size: 12px; /* or whatever you want */
     font-weight: normal;
     color: #555;
     white-space: nowrap;
     min-width: max-content;
     padding-left: 10px;
-}
-
-
-  
-  /* Date styling (right side) */
-  .job-title-date {
-    font-size: 14px; /* ← fixed! */
-    font-weight: normal;
-    color: #555;
-    white-space: nowrap;
-    min-width: max-content;  /* Keeps it from shrinking */
-    padding-left: 10px;      /* Optional for spacing */
 }
 
 
