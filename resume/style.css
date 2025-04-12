@@ -142,7 +142,7 @@ h2 {
 .job-location p:first-child {
     margin: 0;
     line-height: 1.4;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: normal; /* remove bold */
     color: #555;
 }
@@ -150,14 +150,14 @@ h2 {
 /* Job title */
 .job-title {
     margin: 4px 0 0;
-    font-size: 18px; /* slightly larger */
+    font-size: 14px; /* slightly larger */
     font-weight: bold;
     color: #333;
 }
 
 /* Date range */
 .job-title-date {
-    font-size: 16px; /* same size as location */
+    font-size: 14px; /* same size as location */
     font-weight: normal;
     color: #555;
     white-space: nowrap;
