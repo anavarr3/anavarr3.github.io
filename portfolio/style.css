@@ -124,7 +124,6 @@ h2 {
 
 
 /* Portfolio Section */
-/* Portfolio Section */
 .portfolio {
     margin-top: 40px; /* Adjust the spacing */
     padding: 20px;
@@ -137,7 +136,7 @@ h2 {
 
 /* Article Container */
 .article {
-    flex: 1 1 30%; /* Each article takes up 30% of the row, but can shrink if needed */
+    flex: 1 1 48%; /* Each article takes up 48% of the row, allowing for 2 articles per line with some space */
     margin-bottom: 40px; /* Space between each article vertically */
     box-sizing: border-box; /* Ensures padding and margin don't affect width */
 }
