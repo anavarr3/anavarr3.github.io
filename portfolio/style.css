@@ -151,14 +151,14 @@ h2 {
 .article-title {
     font-size: 24px; /* Make title large */
     font-weight: bold;
-    color: #F0CE98; /* Yellow accent color */
+    color: #434040; /* Yellow accent color */
     text-decoration: none; /* Remove underline */
     display: block; /* Block to make it easier to link */
     margin-bottom: 5px; /* Space between title and other details */
 }
 
 .article-title:hover {
-    color: #d1a84d; /* Slightly darker yellow on hover */
+    color: #F0CE98; /* Slightly darker yellow on hover */
 }
 
 /* Article Details (Publication and Date) */
@@ -168,7 +168,7 @@ h2 {
 }
 
 .article-details .publication {
-    color: #F0CE98; /* Yellow for publication */
+    color: #434040; /* Yellow for publication */
     font-weight: bold; /* Make it bold */
 }
 
