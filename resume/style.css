@@ -221,3 +221,13 @@ li {
     margin-bottom: 6px;  /* slightly tighter list */
     line-height: 1.5;
 }
+
+.notable-work a {
+    color: #434040;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .notable-work a:hover {
+    color: #F0CE98;
+  }
